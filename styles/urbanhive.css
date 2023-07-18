@@ -1,0 +1,50 @@
+:root{
+    --primary-color: slateblue;
+    --secondary-color: pink;
+}
+body {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lato', sans-serif;
+}
+
+.nav-container {
+    border: 2px solid orange;
+    background-color: rgba(105, 90, 205, 0.826);
+    min-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+}
+
+.logo-container img {
+    width: 80px;
+}
+
+.logo-container p {
+    font-size: 25px;
+    color: white;
+}
+.secondary-color{
+    color: var(--secondary-color);
+}
+
+.item-container a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0px 20px;
+}
+.item-container .login{
+    color: black;
+    background-color: var(--secondary-color);
+    padding: 3px 20px;
+    border: none;
+    border-radius: 5px;
+}
+.login i{
+    color: var(--primary-color);
+}
